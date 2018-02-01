@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\cordova_plugin\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\HCJ\\.android\\build-cache\\2fb531767a85ee782b78b25652b1b985d3f7d38a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\cordova_plugin\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\HCJ\\.android\\build-cache\\2fb531767a85ee782b78b25652b1b985d3f7d38a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\cordova_plugin\\ocr-reader\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\HCJ\\.android\\build-cache\\2fb531767a85ee782b78b25652b1b985d3f7d38a\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    }
+]

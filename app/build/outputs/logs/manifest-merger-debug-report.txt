@@ -1,0 +1,122 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:3:5-62
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:8:22-62
+application
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:10:5-34:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\HCJ\.android\build-cache\1c3b28cf6dee5caba2d56cb2f603fd11d83516f8\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\HCJ\.android\build-cache\42abb50dfe800c93724a505cacd312a769b44ee2\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\HCJ\.android\build-cache\5ee2e0f16d082ecac6646d5888f6448226da4944\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\HCJ\.android\build-cache\0863eb59ab4da6b190587ce1d2b087bad54d57a3\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:design:24.2.0] C:\Users\HCJ\.android\build-cache\2fb531767a85ee782b78b25652b1b985d3f7d38a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\HCJ\.android\build-cache\8ac8ecc393b24d7182ae036552be65ff7d25a1d8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\HCJ\.android\build-cache\87c19b36555d52dc2a4ed84530c0aded81acfeca\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\HCJ\.android\build-cache\62c450bea09c7450accf21547268fd7ac9261c4c\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\HCJ\.android\build-cache\a3bfbe6f4a0826b6c15152aa3d8d49f689e63bea\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\HCJ\.android\build-cache\1c818f292e041166c8fc0c9ffa67b927749008db\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\HCJ\.android\build-cache\dd3b16bed8320bf8111ddd77fea42363b79897d0\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\HCJ\.android\build-cache\cd9cbc22c5d2fc3229f95a7958980d788bfd8caf\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\HCJ\.android\build-cache\07cc0d87bd2b9909a583e70ae255427ad70efaf1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\HCJ\.android\build-cache\4445adfcb9f12b3d41fb885dcb18607c83119e2a\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:15:9-40
+	android:supportsRtl
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:16:9-37
+	android:hardwareAccelerated
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:12:9-42
+	android:allowBackup
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:14:9-38
+	android:theme
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:17:9-47
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:18:9-20:35
+	android:value
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:20:13-32
+	android:name
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:19:13-70
+activity#com.google.android.gms.samples.vision.ocrreader.MainActivity
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:23:13-88
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity
+ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:32:9-33:41
+	android:label
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:33:13-38
+	android:name
+		ADDED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml:32:19-100
+uses-sdk
+INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\HCJ\.android\build-cache\1c3b28cf6dee5caba2d56cb2f603fd11d83516f8\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\HCJ\.android\build-cache\42abb50dfe800c93724a505cacd312a769b44ee2\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\HCJ\.android\build-cache\5ee2e0f16d082ecac6646d5888f6448226da4944\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\HCJ\.android\build-cache\0863eb59ab4da6b190587ce1d2b087bad54d57a3\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:24.2.0] C:\Users\HCJ\.android\build-cache\2fb531767a85ee782b78b25652b1b985d3f7d38a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\HCJ\.android\build-cache\8ac8ecc393b24d7182ae036552be65ff7d25a1d8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\HCJ\.android\build-cache\87c19b36555d52dc2a4ed84530c0aded81acfeca\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\HCJ\.android\build-cache\62c450bea09c7450accf21547268fd7ac9261c4c\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\HCJ\.android\build-cache\a3bfbe6f4a0826b6c15152aa3d8d49f689e63bea\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\HCJ\.android\build-cache\1c818f292e041166c8fc0c9ffa67b927749008db\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\HCJ\.android\build-cache\dd3b16bed8320bf8111ddd77fea42363b79897d0\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\HCJ\.android\build-cache\cd9cbc22c5d2fc3229f95a7958980d788bfd8caf\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] C:\Users\HCJ\.android\build-cache\9c552d6fac60e388355c34966b683dbb31bd80f3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\HCJ\.android\build-cache\07cc0d87bd2b9909a583e70ae255427ad70efaf1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\HCJ\.android\build-cache\4445adfcb9f12b3d41fb885dcb18607c83119e2a\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\HCJ\.android\build-cache\8ac8ecc393b24d7182ae036552be65ff7d25a1d8\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cordova_plugin\ocr-reader\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\HCJ\.android\build-cache\42abb50dfe800c93724a505cacd312a769b44ee2\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\HCJ\.android\build-cache\42abb50dfe800c93724a505cacd312a769b44ee2\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\HCJ\.android\build-cache\42abb50dfe800c93724a505cacd312a769b44ee2\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\HCJ\.android\build-cache\42abb50dfe800c93724a505cacd312a769b44ee2\output\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\HCJ\.android\build-cache\0863eb59ab4da6b190587ce1d2b087bad54d57a3\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\HCJ\.android\build-cache\0863eb59ab4da6b190587ce1d2b087bad54d57a3\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\HCJ\.android\build-cache\0863eb59ab4da6b190587ce1d2b087bad54d57a3\output\AndroidManifest.xml:22:13-58
