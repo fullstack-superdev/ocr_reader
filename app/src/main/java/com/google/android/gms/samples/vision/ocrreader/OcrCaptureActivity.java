@@ -88,10 +88,14 @@ public final class OcrCaptureActivity extends AppCompatActivity {
         super.onCreate(icicle);
         setContentView(R.layout.ocr_capture);
 
-        mPreview = (CameraSourcePreview) findViewById(R.id.preview);
-        mGraphicOverlay = (GraphicOverlay<OcrGraphic>) findViewById(R.id.graphicOverlay);
+        // mPreview = (CameraSourcePreview) findViewById(R.id.preview);
+        // mGraphicOverlay = (GraphicOverlay<OcrGraphic>) findViewById(R.id.graphicOverlay);
 
         // read parameters from the intent used to launch the activity.
+
+        mPreview = (CameraSourcePreview) findViewById(getResources().getIdentifier("preview", "id", getPackageName()));
+        mGraphicOverlay = (GraphicOverlay<OcrGraphic>) findViewById(getResources().getIdentifier("graphicOverlay", "id", getPackageName()));
+
         boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
         boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
 
@@ -111,7 +115,10 @@ public final class OcrCaptureActivity extends AppCompatActivity {
 //                Snackbar.LENGTH_LONG)
 //                .show();
 
-        captureButton = (Button)findViewById(R.id.button_capture);
+        // captureButton = (Button)findViewById(R.id.button_capture);
+
+
+        captureButton = (Button)findViewById(getResources().getIdentifier("button_capture", "id", getPackageName()));
 
 //        captureButton.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -148,9 +155,9 @@ public final class OcrCaptureActivity extends AppCompatActivity {
             }
         };
 
-        Snackbar.make(mGraphicOverlay, R.string.permission_camera_rationale,
+        Snackbar.make(mGraphicOverlay, getResources().getIdentifier("permission_camera_rationale", "string", getPackageName()),
                 Snackbar.LENGTH_INDEFINITE)
-                .setAction(R.string.ok, listener)
+                .setAction(getResources().getIdentifier("ok", "string", getPackageName()), listener)
                 .show();
     }
 
@@ -199,8 +206,8 @@ public final class OcrCaptureActivity extends AppCompatActivity {
             boolean hasLowStorage = registerReceiver(null, lowstorageFilter) != null;
 
             if (hasLowStorage) {
-                Toast.makeText(this, R.string.low_storage_error, Toast.LENGTH_LONG).show();
-                Log.w(TAG, getString(R.string.low_storage_error));
+                Toast.makeText(this, getResources().getIdentifier("low_storage_error", "string", getPackageName()), Toast.LENGTH_LONG).show();
+                Log.w(TAG, getString(getResources().getIdentifier("low_storage_error", "string", getPackageName())));
             }
         }
 
@@ -294,8 +301,8 @@ public final class OcrCaptureActivity extends AppCompatActivity {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Multitracker sample")
-                .setMessage(R.string.no_camera_permission)
-                .setPositiveButton(R.string.ok, listener)
+                .setMessage(getResources().getIdentifier("no_camera_permission", "string", getPackageName()))
+                .setPositiveButton(getResources().getIdentifier("ok", "string", getPackageName()), listener)
                 .show();
     }
 

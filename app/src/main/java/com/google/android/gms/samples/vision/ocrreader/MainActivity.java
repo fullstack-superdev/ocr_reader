@@ -46,13 +46,21 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        statusMessage = (TextView)findViewById(R.id.status_message);
-        textValue = (TextView)findViewById(R.id.text_value);
+        // statusMessage = (TextView)findViewById(R.id.status_message);
+        // textValue = (TextView)findViewById(R.id.text_value);
 
-        autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
-        useFlash = (CompoundButton) findViewById(R.id.use_flash);
+        statusMessage = (TextView)findViewById(getResources().getIdentifier("status_message", "id", getPackageName()));
+        textValue = (TextView)findViewById(getResources().getIdentifier("text_value", "id", getPackageName()));
 
-        findViewById(R.id.read_text).setOnClickListener(this);
+        // autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
+        // useFlash = (CompoundButton) findViewById(R.id.use_flash);
+
+        autoFocus = (CompoundButton) findViewById(getResources().getIdentifier("auto_focus", "id", getPackageName()));
+        useFlash = (CompoundButton) findViewById(getResources().getIdentifier("use_flash", "id", getPackageName()));
+
+        // findViewById(R.id.read_text).setOnClickListener(this);
+
+        findViewById(getResources().getIdentifier("read_text", "id", getPackageName())).setOnClickListener(this);
     }
 
     /**
@@ -62,7 +70,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
      */
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.read_text) {
+        if (v.getId() == getResources().getIdentifier("read_text", "id", getPackageName())) {
             // launch Ocr capture activity.
             Intent intent = new Intent(this, OcrCaptureActivity.class);
             intent.putExtra(OcrCaptureActivity.AutoFocus, autoFocus.isChecked());
@@ -100,15 +108,23 @@ public class MainActivity extends Activity implements View.OnClickListener {
             if (resultCode == CommonStatusCodes.SUCCESS) {
                 if (data != null) {
                     String text = data.getStringExtra(OcrCaptureActivity.TextBlockObject);
-                    statusMessage.setText(R.string.ocr_success);
+                    // statusMessage.setText(R.string.ocr_success);
+
+                    statusMessage.setText(getResources().getIdentifier("ocr_success", "string", getPackageName()));
+
                     textValue.setText(text);
                     Log.d(TAG, "Text read: " + text);
                 } else {
-                    statusMessage.setText(R.string.ocr_failure);
+                    // statusMessage.setText(R.string.ocr_failure);
+
+                    statusMessage.setText(getResources().getIdentifier("ocr_failure", "string", getPackageName()));
                     Log.d(TAG, "No Text captured, intent data is null");
                 }
             } else {
-                statusMessage.setText(String.format(getString(R.string.ocr_error),
+                // statusMessage.setText(String.format(getString(R.string.ocr_error),
+                //         CommonStatusCodes.getStatusCodeString(resultCode)));
+                
+                statusMessage.setText(String.format(getString(getResources().getIdentifier("ocr_error", "string", getPackageName())),
                         CommonStatusCodes.getStatusCodeString(resultCode)));
             }
         }
